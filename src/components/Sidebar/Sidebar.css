@@ -1,0 +1,53 @@
+.sidebar {
+    display: flex;
+    flex: 0.13;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #EFDDB7;
+    opacity: 0.7;
+    margin: 5px 5px 0 0;
+    padding-bottom: 20px;
+    box-shadow: 2px 0px 2px 0px rgba(0,0,0,0.4);
+}
+
+.sidebar__header {
+    display: flex;
+    padding: 5px;
+    height: 4vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.4);
+}
+
+.sidebar__icon {
+    cursor: pointer;
+}
+
+.sidebar__icon > .MuiSvgIcon-root:hover {
+    opacity: 0.8 !important;
+}
+
+.sidebar__plans {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 5px;
+    align-items: flex-start;
+    overflow: scroll;
+}
+
+.sidebar__plans::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sidebar__plans > p:hover {
+   opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        flex: 1;
+        width:100%;
+    }
+  }

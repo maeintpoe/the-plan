@@ -1,0 +1,35 @@
+1. Installation
+    [x] yarn add @material-ui/core
+    [x] yarn add @material-ui/icons
+    [x] yarn add react-router-dom
+    [x] yarn add firebase
+    [x] yarn add react-countdown
+    [x] yarn add react-datetime-picker
+    [x] yarn add react-date-picker //issues with this
+    [x] yarn add uuid
+    [x] yarn add react-vertical-timeline-component
+    [x] yarn add @material-ui/lab
+    [x] yarn add react-stack-grid
+2. Set up firebase 
+    [x] Setup configurations 
+    [x] Setup Firestore
+    [x] Setup authentication
+3. Setup routes & pages
+    [x] Login
+    [x] Main Dashboard
+    [x] Vision board
+    [x] Logistics
+    [x] (maybe) Itinerary
+    [x] Chat board 
+4. Connect Firestore database
+    [x] Store user data 
+    [x] Store plans data
+    [] Connect user's & plans - use the doc ids
+
+End. Things to go back & check
+    [] Add list of users sharing the same plan into plan 
+    [] Add correct time to the timer countdown
+    [] 
+
+Extra:
+    [] Add date range picker for main board

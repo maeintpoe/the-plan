@@ -1,0 +1,53 @@
+.mainBoard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.mainBoard__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.mainBoard__avatar {
+    height: 5vh !important;
+    width: 5vh !important;
+    margin-left: 10px;
+}
+
+.mainBoard__card {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #EFDDB7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.mainBoard__card > h2 {
+    color: #A56953;
+    background-color: #EFDDB7;
+    position: fixed;
+}
+.mainBoard__card:hover {
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.mainBoard__image {
+    position: absolute;
+    overflow: hidden;
+}
+
+#mainboard__itinerary {
+    position: inherit;
+}
+
+.mainBoard__text {
+    position: fixed;
+}

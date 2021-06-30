@@ -1,0 +1,39 @@
+.addItinerary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.addItinerary__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+.addItinerary__formItem {
+    margin: 5px;
+    width: 100%;
+}
+
+.MuiToggleButton-root {
+    border: none !important;
+}
+
+
+.addItinerary__button {
+    padding: 3px;
+    margin: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    background-color: #9AB4A9;
+    color: #222c29;
+}

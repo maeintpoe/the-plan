@@ -1,0 +1,32 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    flex: 0.87;
+    height: 92vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.layout__body {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap; /* Kinda janky when the screen is really small  */
+}
+
+.layout__board {
+    display: flex;
+    flex: 0.75;
+}
+
+.layout__welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .layout__body {
+        flex-direction: column;
+    }
+  }

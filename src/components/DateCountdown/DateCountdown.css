@@ -1,0 +1,31 @@
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    font-size: large;
+}
+
+.countdown__timer {
+    flex: 0.7;
+    font-size: xx-large;
+}
+
+.countdown__timerMessage {
+    font-size: xx-large !important;
+}
+
+.countdown__edit {
+    cursor: pointer;
+}
+
+.countdown__picker {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.countdown__timerSpan {
+    display: flex;
+    flex-direction: row;
+}

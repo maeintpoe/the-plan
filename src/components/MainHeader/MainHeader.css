@@ -1,0 +1,38 @@
+.mainHeader {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.4);
+    z-index: 1;
+    background-color: white;
+}
+
+.mainHeader__left {
+    padding: 15px;
+    display: flex;
+    color: #54766A;
+}
+
+.mainHeader__logo {
+    height: 5vh;
+    width: 5vh;
+    padding-right: 10px;
+}
+
+.mainHeader__right {
+    color: #A56953;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.mainHeader__right > p {
+    cursor: pointer;
+}
+
+.mainHeader__avatar {
+    height: 5vh !important;
+    width: 5vh !important;
+    margin-left: 10px;
+}

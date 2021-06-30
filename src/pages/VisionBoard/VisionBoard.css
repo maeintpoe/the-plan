@@ -1,0 +1,48 @@
+.visionBoard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+.visionBoard__addImage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.visionBoard__icon {
+    cursor: pointer !important;
+}
+
+.visionBoard__icon:hover {
+    opacity: 0.8 !important;
+}
+
+.visionBoard__card {
+    margin: 2%;
+}
+.visionBoard__card:hover{
+    box-shadow: 0px 0px 15px 5px rgba(239, 221, 183, 0.2);
+}
+
+.visionBoard__gallery {
+    height: 80vh;
+    overflow-y: scroll;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+}
+
+.visionBoard__gallery::-webkit-scrollbar{
+    display: none;
+} 
+
+
+
+/* 
+.MuiCardMedia-root .visionBoard__cardImage {
+    height: "200px" !important;
+    width:"130px" !important;
+    background-color: red;
+} */
+

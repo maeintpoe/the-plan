@@ -3,14 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "firebase": "^8.4.3",
     "react": "^17.0.2",
+    "react-countdown": "^2.3.1",
+    "react-date-picker": "^8.1.1",
+    "react-datetime-picker": "^3.2.1",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
-    "react-scripts": "4.0.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-stack-grid": "^0.7.1",
+    "react-vertical-timeline-component": "^3.3.3",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

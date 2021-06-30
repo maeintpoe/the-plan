@@ -1,0 +1,68 @@
+.checklist {
+    padding: 5px;
+}
+
+.checklist__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.checklist__lists {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.checklist__lists::-webkit-scrollbar {
+    border-radius: 5px;
+    width: 5px;
+}
+.checklist__lists::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.checklist__lists::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #A56953; 
+}
+.checklist__lists::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.checklist__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.checklist__input > form {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.8;
+    border: 0;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+  
+.checklist__input > form > input {
+    background: transparent;
+    border-width: 0;
+    outline-width: 0;
+    padding: 15px;
+    flex: 0.75;
+    font-size: medium;
+}
+.checklist__inputButton {
+    border: 0;
+    flex: 0.25;
+    background: transparent;
+    cursor: pointer;
+}
+
+.checklist__uncheckedItem, .checklist__checkedItem {
+    border-bottom: 1px solid gray;
+}
+
+.checklist__checkedText {
+    text-decoration: line-through;
+}
